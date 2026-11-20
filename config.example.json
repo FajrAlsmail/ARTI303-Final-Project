@@ -1,0 +1,6 @@
+{
+  "data_path": "data/processed/cleaned_books.csv",
+  "recommendation_count": 5,
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "random_seed": 42
+}
