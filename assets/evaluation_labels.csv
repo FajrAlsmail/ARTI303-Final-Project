@@ -1,0 +1,31 @@
+﻿query_id,method,rank,book_id,title,relevant,evidence_status,review_note
+mystery,Semantic,1,9780439176835,Castle,1,Strong,"Dark and mysterious castle, sinister forces, characters on dangerous missions."
+mystery,Semantic,2,9780517119129,Two Complete Novels,0,Partial but insufficient,"Mystery is mentioned, but this is pitched as zany time-travel/space fiction rather than a dark character-focused mystery."
+mystery,Semantic,3,9780312890216,The Starry Rift,0,Clear mismatch,Alien-planet exploration with strange life forms; not a dark mystery narrative.
+mystery,Semantic,4,9780061954597,Midnighters #2: Touching Darkness,1,Strong,"Terrifying mysteries, a conspiracy, personal danger, and a dark supernatural setting."
+mystery,Semantic,5,9780399146268,Three Complete Novels,0,Partial but insufficient,"Horror, death and psychic phenomena suggest darkness, but the synopsis does not establish a mystery plot or characters."
+mystery,TF-IDF,1,9780590456807,The Stranger,1,Strong,"A dark and mysterious character, cave exploration, and hidden secrets."
+mystery,TF-IDF,2,9780749919443,Transform Your Life,0,Clear mismatch,"Motivational self-help, not a fictional mystery."
+mystery,TF-IDF,3,9780821776056,See how She Dies,1,Partial match,Romantic suspense with intrigue and atmosphere; darkness and complex characterization are not explicit.
+mystery,TF-IDF,4,9780486424583,Women in Love,0,Clear mismatch,A relationship-centered novel; no substantial mystery or dark plot supported.
+mystery,TF-IDF,5,9780671025700,The Last Dance,1,Strong,"A murder investigation, seedy settings, mysterious drug and killer."
+fantasy,Semantic,1,9780618894642,Children of Húrin,1,Strong,"Epic fantasy conflict with dragons, sorcerers and magical peoples."
+fantasy,Semantic,2,9780575601970,A Sudden Wild Magic,1,Partial match,"Fantasy adventure involving wars and other worlds; magic, kingdoms and quests are less explicit."
+fantasy,Semantic,3,9781565044043,Tales of Magick,0,Clear mismatch,"A role-playing-game supplement explaining how to play Mage, not a fantasy story to read."
+fantasy,Semantic,4,9780744005837,Dragon Quest VIII,0,Clear mismatch,A strategy guide for the Dragon Quest video game rather than a fantasy narrative.
+fantasy,Semantic,5,9780345492869,The Voyage of the Jerle Shannara Trilogy,1,Strong,Epic heroic fantasy confrontation involving a witch and the Four Lands.
+fantasy,TF-IDF,1,9780261102200,The Treason of Isengard,0,Insufficient description,"Description only says Fantasy-roman; no evidence of magic, kingdoms, quests, or epic adventure."
+fantasy,TF-IDF,2,9780552133258,Strata,0,Insufficient description,Description only says Fantasy-roman; no evidence of requested adventure elements.
+fantasy,TF-IDF,3,9780786913145,The Soulforge,0,Insufficient description,Description only says Fantasy roman; no evidence of requested adventure elements.
+fantasy,TF-IDF,4,9780006480099,Assassin's Apprentice,0,Insufficient description,Description only says Fantasy-roman; no evidence of requested adventure elements.
+fantasy,TF-IDF,5,9780575601970,A Sudden Wild Magic,1,Partial match,"Fantasy adventure of wars and other worlds; magic, kingdoms and quests are not explicit."
+science_fiction,Semantic,1,9780671559342,Alien Stars,1,Partial match,Science-fiction stories featuring alien races and extraterrestrial conflict; exploration is not explicit.
+science_fiction,Semantic,2,9780312890216,The Starry Rift,1,Strong,Directly describes human exploration of alien planets and alien life forms.
+science_fiction,Semantic,3,9780451452580,Dealing in Futures,1,Partial match,Fiction stories featuring distant planets; alien civilizations or exploration are not explicit.
+science_fiction,Semantic,4,9780553574012,The Martians,1,Partial match,Mars-colonist stories and terraforming; alien civilizations are not described.
+science_fiction,Semantic,5,9781401212636,Superman,0,Clear mismatch,"Alien encounters in a superhero story, not space exploration or alien civilizations as the narrative focus."
+science_fiction,TF-IDF,1,9780553274066,Triumph of the Darksword,0,Insufficient description,Only says Science fiction; no evidence of space exploration or alien civilizations.
+science_fiction,TF-IDF,2,9780586203194,2061,0,Insufficient description,Only says Science fiction-roman; no evidence of space exploration or alien civilizations.
+science_fiction,TF-IDF,3,9780553803709,"I, Robot",0,Clear mismatch,"Stories about robots and future technology, not alien civilizations or space exploration."
+science_fiction,TF-IDF,4,9780231124270,The Poetry of Sylvia Plath,0,Clear mismatch / metadata issue,Description is for a critical-essay collection about science fiction and does not match the displayed title.
+science_fiction,TF-IDF,5,9780886774448,The Madness Season,1,Partial match,Science-fiction narrative involving an alien race and its domination of humanity; exploration is not explicit.
