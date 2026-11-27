@@ -1,0 +1,7 @@
+query_id,method,relevant_books,evaluated_books,precision_at_5
+fantasy,Semantic,3,5,0.6
+fantasy,TF-IDF,1,5,0.2
+mystery,Semantic,2,5,0.4
+mystery,TF-IDF,3,5,0.6
+science_fiction,Semantic,4,5,0.8
+science_fiction,TF-IDF,1,5,0.2
